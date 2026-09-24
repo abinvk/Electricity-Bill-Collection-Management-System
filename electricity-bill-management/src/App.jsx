@@ -1,8 +1,14 @@
+import Sidebar from "./components/Sidebar";
+import Collectors from "./pages/Collectors";
+
 function App() {
   return (
     <div>
-      <h1>PowerCollect</h1>
-      <p>Dashboard is working</p>
+      <Sidebar />
+
+      <main>
+        <Collectors />
+      </main>
     </div>
   );
 }
