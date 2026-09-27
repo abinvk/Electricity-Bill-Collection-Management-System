@@ -1,16 +1,14 @@
-import { NavLink } from "react-router-dom";
-
 function Sidebar() {
   return (
-    <aside className="sidebar">
+    <aside>
       <h2>PowerCollect</h2>
 
       <nav>
-        <NavLink to="/dashboard">Dashboard</NavLink>
-        <NavLink to="/bills">Bills</NavLink>
-        <NavLink to="/collectors">Collectors</NavLink>
-        <NavLink to="/reports">Reports</NavLink>
-        <NavLink to="/settings">Settings</NavLink>
+        <a href="#">Dashboard</a>
+        <a href="#">Bills</a>
+        <a href="#">Collectors</a>
+        <a href="#">Reports</a>
+        <a href="#">Settings</a>
       </nav>
     </aside>
   );
