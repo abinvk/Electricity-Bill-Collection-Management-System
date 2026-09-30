@@ -173,3 +173,8 @@ tr:hover {
   background: #fee2e2;
   color: #991b1b;
 }
+
+.sidebar a.active {
+  background: #1e3a8a;
+  color: white;
+}
