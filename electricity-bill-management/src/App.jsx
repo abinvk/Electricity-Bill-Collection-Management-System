@@ -1,5 +1,5 @@
 import Sidebar from "./components/Sidebar";
-import Dashboard from "./pages/Dashboard";
+import Bills from "./pages/Bills";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <Sidebar />
 
       <main className="main-content">
-        <Dashboard />
+        <Bills />
       </main>
     </div>
   );
